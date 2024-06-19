@@ -82,7 +82,8 @@ Save the file and exit the editor
 
 Now enter these commands (some of them are systemd specific):
 
-`sudo usermod -a -G libvirt $(whoami)`
+`sudo usermod -aG libvirt $(whoami)`
+`sudo usermod -aG kvm $(whoami)`
 
 `sudo systemctl start libvirtd`
 
