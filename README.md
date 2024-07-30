@@ -211,25 +211,25 @@ Now you want to create these directories:
 
 And make edit these files:
 
-`/etc/libvirt/hooks/qemu.d/win10/prepare/begin/start.sh`
+`/etc/libvirt/hooks/qemu.d/atlasOS/prepare/begin/start.sh`
 
 It should be empty. Now just copy the start script uploaded by me into the file.
 
 execute this command:
 
-`chmod +x /etc/libvirt/hooks/qemu.d/win10/prepare/begin/start.sh`
+`chmod +x /etc/libvirt/hooks/qemu.d/atlasOS/prepare/begin/start.sh`
 
 To make this script executable.
 
 Next edit this file:
 
-`/etc/libvirt/hooks/qemu.d/win10/release/end/revert.sh`
+`/etc/libvirt/hooks/qemu.d/atlasOS/release/end/revert.sh`
 
 It should be empty. Now just copy the revert script uploaded by me into the file.
 
 Execute this command:
 
-`chmod +x /etc/libvirt/hooks/qemu.d/win10/release/end/revert.sh`
+`chmod +x /etc/libvirt/hooks/qemu.d/atlasOS/release/end/revert.sh`
 
 Now make another file in `/etc/libvirt/hooks/kvm.conf`
 
