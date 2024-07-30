@@ -198,15 +198,15 @@ Now you want to create these directories:
 ```
 /etc/libvirt/hooks/qemu.d
 
-/etc/libvirt/hooks/qemu.d/win10
+/etc/libvirt/hooks/qemu.d/atlasOS
 
-/etc/libvirt/hooks/qemu.d/win10/prepare
+/etc/libvirt/hooks/qemu.d/atlasOS/prepare
 
-/etc/libvirt/hooks/qemu.d/win10/prepare/begin
+/etc/libvirt/hooks/qemu.d/atlasOS/prepare/begin
 
-/etc/libvirt/hooks/qemu.d/win10/release
+/etc/libvirt/hooks/qemu.d/atlasOS/release
 
-/etc/libvirt/hooks/qemu.d/win10/release/end
+/etc/libvirt/hooks/qemu.d/atlasOS/release/end
 ```
 
 And make edit these files:
