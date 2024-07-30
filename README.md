@@ -4,6 +4,9 @@ This is a guide for passing an AMD GPU to a Windows 10 Guest VM on Linux
 EDIT:
 Since I switched to an NVIDIA GPU I'll be throwing my new scripts in here too
 
+EDIT:
+if using arh/EndevourOS + hyprland ---> https://gitlab.com/risingprismtv/single-gpu-passthrough/-/wikis/home
+
 I will not cover hugepages and CPU pinning in this guide because my performance is fine as it is.
 
 There are several outstanding guides covering this topic and you should check them out first If you have no idea about single gpu passthrough.
